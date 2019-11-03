@@ -1,0 +1,28 @@
+print(" ")
+print('"Consideer A Triangle ABC"')
+print(" ")
+
+print('     A                ')
+print('     |\               ')
+print('     | \              ')
+print('     |  \             ')
+print('     |   \            ')                   
+print('     |    \           ')
+print(' "P" |     \    "H"   ')
+print('     |      \         ')
+print('     |       \        ')
+print('     |        \       ')
+print('     |         \      ')
+print('     ------------     ')
+print('     B     "B"    C   ')
+
+print(" ")
+print("For Hypotenus Of Right Angle Triangle")
+len1 = float(input("Enter Base(BC): "))
+len2 = float(input("Enter Perpendiculer(AB): "))
+print(" ")
+
+ans = (((len2)**2 + (len1)**2)**0.5)
+
+print("The Hypotenus Of Right Angle Triangle Is " + str(ans))
+print(" ")
